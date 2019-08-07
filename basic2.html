@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<style type="text/css" media="screen">
+	#container {
+		display: flex;
+		width: 600px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	img {
+		width: 200px;
+	}
+
+
+</style>
+
+	<div id="container">
+<img src="santa.png" alt="santa">
+<img src="whitebox.png" alt="box">
+<img src="santa.png" alt="santa">
+<img src="whitebox.png" alt="box">
+<img src="santa.png" alt="santa">
+<img src="whitebox.png" alt="box">
+<img src="santa.png" alt="santa">
+<img src="whitebox.png" alt="box">
+<img src="santa.png" alt="santa">
+	</div>
+
+
+<script>
+	$("img").click(function() {
+		$(this).hide()
+	});
+
+
+</script>
+
+
+
+</body>
+</html>
