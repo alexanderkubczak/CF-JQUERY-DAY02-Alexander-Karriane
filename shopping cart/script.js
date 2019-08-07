@@ -9,6 +9,7 @@ for (var i=0; i < items.length; i++) {
 		<p class="name">${items[i].name}</p>
 		<p class="price">Price: ${items[i].price}€</p>
 		<p class="calories">Calories: ${items[i].calories}</p>
+		<button class="addToCartButton" id=${i}>Add<i class="fas fa-shopping-cart"></i></button>
 		</div>`);}
 });
 

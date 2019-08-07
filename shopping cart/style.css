@@ -5,10 +5,25 @@ header {
   width: 100%;
   height: 10vw;
   text-align: center;
-  align-items: center; }
-  header img {
-    height: 15vw;
-    width: 30vw; }
+  align-items: center;
+  background-color: lightblue; }
+
+nav {
+  width: 100%;
+  height: 5vw;
+  background-color: orange; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    nav ul li {
+      float: left;
+      font-size: 200%;
+      word-spacing: 1vw; }
+      nav ul li li a {
+        display: inline;
+        text-decoration: none; }
 
 #container {
   width: 100%;
@@ -24,10 +39,28 @@ header {
     height: 15vw;
     width: 30vw; }
   #container .price {
-    margin-left: 12.5vw; }
+    margin-left: 18vw;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 125%; }
   #container .name {
-    margin-left: 12.5vw; }
+    margin-left: 1vw;
+    font-weight: bold;
+    font-size: 150%;
+    position: relative;
+    bottom: 1vw; }
   #container .calories {
-    margin-left: 12.5vw; }
+    position: relative;
+    left: 24.5vw;
+    bottom: 4vw; }
+  #container .addToCartButton {
+    width: 5vw;
+    height: 2vw;
+    border: 1px solid transparent;
+    border-radius: 2vw;
+    position: relative;
+    left: 26vw;
+    bottom: 3vw;
+    background-color: lightgreen; }
 
 /*# sourceMappingURL=style.css.map */
