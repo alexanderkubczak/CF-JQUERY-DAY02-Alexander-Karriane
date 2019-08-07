@@ -1,0 +1,74 @@
+items = [{
+
+"name": "Pizza",
+"price": 7.99,
+"available": "True",
+"image": "pizza.png",
+"calories": 948
+},
+
+{
+"name": "Poke Bowl",
+"price": 6.50,
+"available": "True",
+"image": "bowl.png",
+"calories": 450
+},
+
+{
+"name": "Burger",
+"price": 8.00,
+"available": "False",
+"image": "burger.png",
+"calories": 765
+},
+
+{
+"name": "Nuggets",
+"price": 5.99,
+"available": "True",
+"image": "nuggets.png",
+"calories": 675
+},
+
+{
+"name": "Pasta",
+"price": 6.99,
+"available": "False",
+"image": "pasta.png",
+"calories": 620
+},
+
+{
+"name": "Burrito",
+"price": 4.50,
+"available": "True",
+"image": "burrito.png",
+"calories": 680
+},
+
+{
+"name": "Lasagna",
+"price": 5.50,
+"available": "True",
+"image": "lasagna.png",
+"calories": 800
+},
+
+{
+"name": "Ramen",
+"price": 7.50,
+"available": "True",
+"image": "ramen.png",
+"calories": 550
+},
+
+{
+"name": "Hot Dogs",
+"price": 3.50,
+"available": "True",
+"image": "hotdogs.png",
+"calories": 300
+
+
+}]
